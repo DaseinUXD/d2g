@@ -4,13 +4,10 @@
 
 ### standard types
 
-*RC
-
-*TYN
-
-*CANCEL
-
-*PSM
+* RC
+* TYN
+* CANCEL
+* PSM
 
 ### RC
 
