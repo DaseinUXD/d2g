@@ -1,158 +1,94 @@
-<body style="margin: 0px; padding: 0px;" yahoo="fix"> <!-- reset and apply fix -->
-<!-- /\/\/\/\/\/\/\/\/ ****** Wrapper Table ****** /\/\/\/\/\/\/\/\/ -->  
-  <table> <!-- Table I-->
-    <tr>  <!-- Table Row I.A -->
-      <td> <!-- Table Data I.A.1 -->
-        <table> <!-- Table II -->
-          <tr> <!-- Table Row II.A -->
-          <td> <!-- Table Data II.A.1 --></td> <!-- Table Data /II.A.1/ -->
-          <td id="header" style="line-height: 0px;"><a href="tel:12078376585"><img src="http://images.data2gold.com/01092/images/rc_02.jpg" border="0"></a></td>
-        </tr>
-        <tr>
-          <td nowrap id="header2" valign="top" style="font-family:'Times New Roman', Times, serif; text-align:center; font-size:16px; text-transform:uppercase; color:#000000;">&nbsp;<br /><a href="http://www.thebrunswickhotelandtavern.com/" style="text-align:center; vertical-align:text-top; color:#000000; text-decoration:none;">Home</a> &nbsp;&nbsp;&nbsp;<strong>|</strong>&nbsp;&nbsp;&nbsp; <a href="http://www.thebrunswickhotelandtavern.com/tavern_dining/" style="text-align:center; vertical-align:text-top; color:#000000; text-decoration:none;">DINING</a> &nbsp;&nbsp;&nbsp;<strong>|</strong>&nbsp;&nbsp;&nbsp; <a href="http://www.thebrunswickhotelandtavern.com/" style="text-align:center; vertical-align:text-top; color:#000000; text-decoration:none;">Attractions</a><br />&nbsp;</td>
-        </tr>
-        <tr>
-       	  <td colspan="2"><img src="http://images.data2gold.com/01092/images/rc_06.jpg"></td>
-        </tr>    
-        </table>
-         <table bgcolor="#FFFFFF" width="600" border="0" align="center" cellpadding="0" cellspacing="0" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height:19px; color: #000000; text-align:left" id="main">
-        <tr>
-          <td width="25" style="font-size: 1px; line-height: 0px;" class="trim">&nbsp;</td>
-          <td width="550" class="content">&nbsp;<br />
-            <span style="font-size: 20px; font-family:'Times New Roman', Times, serif;">Reservation Confirmation</span><br />
-            <br />
-            << daDisplay.Greeting >><br />
-            <br />
-            Thank you for selecting The Brunswick Hotel & Tavern for your upcoming visit to Mid-Coast Maine. We are eager to welcome you and it is our goal to make your stay as relaxing and enjoyable as possible. In anticipation of your visit, we welcome the opportunity to help you in planning your trip.<br />
-              
-            
-            &nbsp;
-            <table width="550" border="0" cellpadding="3" cellspacing="3" align="center" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; text-align: left;" id="details">
-              <tr>
-                <td colspan="2" style="background-color: #34271B;font-size: 13px; font-weight: bold; color: #FFFFFF; text-align: center; text-transform: uppercase;">reservation details</td>
-              </tr>
-              <tr>
-                <td width="150" class="half" nowrap><strong>Confirmation Number</strong></td>
-                <td width="250" class="half"><< daDisplay.ReservationNumber >></td>
-              </tr>
-              <tr>
-                <td valign="top"><strong>Guest Name</strong></td>
-                <td><< daDisplay.GuestName >></td>
-              </tr>
-              <tr>
-                <td valign="top"><strong>Arrival Date</strong></td>
-                <td><a href="http://web.data2gold.com/?Module=Calendar&Action=Update&EID=<< emaildisplay.eml_id >>" target="_blank" style="color:#333333; text-decoration: none;" /><< daDisplay.ArrivalDate >></a></td>
-              </tr>
-              <tr>
-                <td valign="top"><strong>Departure Date</strong></td>
-                <td><span class="appleLinks"><< daDisplay.DepartureDate >></span></td>
-              </tr>
-              << Includetext("00000", "RC-RoomTypeSQL", "HTML") >>
-              << Includetext("00000", "RC-RatePackage", "HTML") >>
-              << Includetext("00000", "RC-RateDaysTable", "HTML") >> 
-              <!--< Includetext("00000", "RC-SMS-Rate", "HTML") >-->
-              << Includetext("00000", "RC-RateDisclaimer", "HTML") >>
-              <tr>
-                <td colspan="2" height="5">&nbsp;</td>
-              </tr>
-              <tr>
-                <td colspan="2" style="background-color: #34271B;font-size: 13px; font-weight: bold; color: #FFFFFF; text-align: center; text-transform: uppercase;">policies</td>
-              </tr>
-              <tr>
-                <td valign="top"><strong>Deposit Policy</strong></td>
-                <td>All reservations are guaranteed with a deposit of 100% of a one-night reservation or 50% for a two- or more night reservation.  Deposits made do not include applicable state taxes.</td>
-              </tr>
-              <tr>
-                <td valign="top"><strong>Cancellation Policy</strong></td>
-
-
-                <td><< Includetext("01092", "RC-CancelPolicy", "HTML") >></td>
-              </tr>
-              <tr>
-                <td valign="top"><strong>Check-In Time</strong></td>
-                <td><span class="appleLinks"><< daDisplay.CheckInTime >></span></td>
-              </tr>
-              <tr>
-                <td valign="top"><strong>Check-Out Time</strong></td>
-                <td><span class="appleLinks"><< daDisplay.CheckOutTime >></span></td>
-              </tr>
-              <tr>
-                <td valign="top"><strong>Room Tax</strong></td>
-                <td><< daDisplay.RoomTax >></td>
-              </tr>
-              <tr>
-                <td colspan="2" height="5">&nbsp;</td>
-              </tr>
-              <tr>
-                <td colspan="2" style="background-color: #34271B;font-size: 13px; font-weight: bold; color: #FFFFFF; text-align: center; text-transform: uppercase;">contact information</td>
-              </tr>
-              <tr>
-                <td valign="top"><strong>Main Number</strong></td>
-                <td><a href="tel:207-837-6565" style="color:#000000; text-decoration: none;">207.837.6565</a></td>
-              </tr>
-              
-              <tr>
-                <td valign="top"><strong>Reservations Number</strong></td>
-                <td><a href="tel:207-837-6565" style="color:#000000; text-decoration: none;">207.837.6565</a></td>
-              </tr>
-              
-              <tr>
-                <td valign="top"><strong>Hotel Website</strong></td>
-                <td><a href="http://www.thebrunswickhotelandtavern.com/" title="www.thebrunswickhotelandtavern.com" style="color:#99843d;">www.thebrunswickhotelandtavern.com</a></td>
-              </tr>
-            </table>
-            &nbsp;<br />
-            We look forward to making your visit a delightful one. Please contact us at any time may we be of further service prior to your arrival. <br /><br />
-
-Rick Martin, <br />
-General Manager <br />
-            &nbsp;<br />
-            <table width="100%" border="0" cellpadding="3" cellspacing="3" align="center" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; text-align: left;" id="details">
-              <tr>
-                <td align="left" width="183"><a href="http://www.thebrunswickhotelandtavern.com/local_attractions/events/"><img src="http://images.data2gold.com/01092/images/RC_09.jpg"></a></td>
-                <td align="center" width="183"><a href="http://www.thebrunswickhotelandtavern.com/tavern_dining/"><img src="http://images.data2gold.com/01092/images/RC_11.jpg"></a></td>
-                <td align="right" width="183"><a href="http://www.thebrunswickhotelandtavern.com/map_directions/"><img src="http://images.data2gold.com/01092/images/RC_13.jpg"></a></td>
-              </tr>
-              <tr style="line-height:10px;">
-                <td valign="top" align="Left" width="183"><span style="font-size:16px; font-family:'Times New Roman', Times, serif;">THINGS TO DO</span><br /><br />
-                <span style="line-height:18px;">Brunswick mixes New England charm with a thriving arts and entertainment culture.</span><br /><br />
-                <a href="http://www.thebrunswickhotelandtavern.com/local_attractions/events/" style="color:#99843d;">Learn More</a></td>
-                <td valign="top" align="Left" width="183" style="padding-left:17px;"><span style="font-size:16px; font-family:'Times New Roman', Times, serif;">THE TAVERN</span><br /><br />
-                  <span style="line-height:18px;">Join us in the Tavern for traditional New England favorites prepared with the freshest local ingredients.</span><br /><br />
-                <a href="http://www.thebrunswickhotelandtavern.com/tavern_dining/" style="color:#99843d;">Learn More</a></td>
-                <td valign="top" align="Left" width="183" style="padding-left:28px;"><span style="font-size:16px; font-family:'Times New Roman', Times, serif;">DIRECTIONS</span><br /><br />
-                 <span style="line-height:18px;"> The Brunswick Hotel &amp; Tavern is centrally located next to Brunswick Station. Click below for details.</span><br /><br />
-                <a href="http://www.thebrunswickhotelandtavern.com/map_directions/" style="color:#99843d;">Learn More</a></td>
-              </tr>
-              <tr>
-                <td colspan="3">&nbsp;</td>
-              </tr>
-             </table>
-            </td>
-          <td width="25" style="font-size: 1px; line-height: 0px;" class="trim">&nbsp;</td>
-        </tr>
-        </table>
-        <table bgcolor="#34271B" width="600" border="0" align="center" cellpadding="0" cellspacing="0" style="font-family: 'Times New Roman', Times, serif; font-size: 12px; color: #FFFFFF; text-align:left; line-height: 17px;">
-        <tr>
-        	<td colspan="3"><br />&nbsp;</td>
-        </tr>    
-        <tr>
-          <td width="25" valign="middle">&nbsp;</td>
-          <td width="347" valign="middle"><span style="font-size:14px;">
-          <a href="http://www.thebrunswickhotelandtavern.com/" style="color:#FFFFFF; text-decoration:none;">THE BRUNSWICK HOTEL &amp; TAVERN</a></span><br />
-          4 Noble Street<br />
-          Brunswick, Maine 04011<br />
-          <a href="tel:12078376585" style="color:#FFFFFF; text-decoration:none;">207.837.6565</a><br />
-          <a href="http://www.thebrunswickhotelandtavern.com/" style="color:#FFFFFF; text-decoration:none;">thebrunswickhotelandtavern.com</a><br /><br />
-          &nbsp;</td>
-          
-          <td width="228" valign="top"><a href="https://www.facebook.com/TheBrunswickHotelandTavern"><img src="http://images.data2gold.com/01092/images/facebook.png" width="53" border="0"></a><a href="https://twitter.com/BrunswickHTL"><img src="http://images.data2gold.com/01092/images/twitter.png" width="53" border="0"></a><a href="http://www.pinterest.com/visitbrunswick/"><img src="http://images.data2gold.com/01092/images/pin.png" width="53" border="0"></a><a href="https://plus.google.com/u/0/102276554674797199734/about"><img src="http://images.data2gold.com/01092/images/google.png" width="53" border="0"></a></td>
-        </tr>
-      </table>
-      &nbsp;<br />
+<body style="margin: 0px; padding: 0px;" yahoo="fix"> <!--reset and apply fix-->
+<!--/\/\/\/\/\/\/\/\/ ****** Wrapper ****** /\/\/\/\/\/\/\/\/-->  
+  <table> <!--I-->
+    <tr>  <!--I.A-->
+      <td> <!--I.A.1-->
+        <table> <!--II-->
+          <tr> <!--II.A-->
+            <td> <!--II.A.1-->
+              <!--/\/\/\/\/\/\/\/\/ ****** Enter Content Here ****** /\/\/\/\/\/\/\/\/-->  
+            </td> <!--/II.A.1/-->
+            <td>  <!--II.A.2-->
+              <!--/\/\/\/\/\/\/\/\/ ****** Enter Content Here ****** /\/\/\/\/\/\/\/\/-->
+            </td> <!--/II.A.2/-->
+          </tr> <!--/II.A/-->
+          <tr>  <!--II.B-->
+            <td> <!--II.B.3-->
+              <!--/\/\/\/\/\/\/\/\/ ****** Enter Content Here ****** /\/\/\/\/\/\/\/\/-->
+            </td> <!--/II.B.3/-->
+          </tr> <!--/II.B/-->
+          <tr> <!--II.C-->
+            <td> <!--II.C.1-->
+              <!--/\/\/\/\/\/\/\/\/ ****** Enter Content Here ****** /\/\/\/\/\/\/\/\/-->
+            </td> <!--/II.C.1/-->
+          </tr> <!--/II.C/--> 
+        </table> <!--/II/-->
+        <table> <!--III-->
+          <tr> <!--III.A-->
+            <td> <!--III.A.1-->
+              <!--/\/\/\/\/\/\/\/\/ ****** Enter Content Here ****** /\/\/\/\/\/\/\/\/-->  
+            </td> <!--/III.A.1/-->
+            <td> <!--III.A.2-->
+              <table> <!--IV-->
+                <tr>  <!--IV.A-->
+                  <td>  <!--IV.A.1--> 
+                    <!--/\/\/\/\/\/\/\/\/ ****** Enter Content Here ****** /\/\/\/\/\/\/\/\/-->
+                  </td> <!--/IV.A.1/-->
+                </tr> <!--/IV.A/-->
+                <tr>  <!--IV.B-->
+                  <td> <!--IV.B.1-->
+                    <!--/\/\/\/\/\/\/\/\/ ****** Enter Content Here ****** /\/\/\/\/\/\/\/\/-->
+                  </td> <!--/IV.B.1/-->
+                  <td> <!--IV.B.2-->
+                    <!--/\/\/\/\/\/\/\/\/ ****** Enter Content Here ****** /\/\/\/\/\/\/\/\/-->
+                  </td> <!--/ IV.B.2/-->
+                </tr>  <!--/IV.B/-->
+                <tr>   <!--IV.C-->
+                  <td>   <!--IV.C.1-->
+                    <!--/\/\/\/\/\/\/\/\/ ****** Enter Content Here ****** /\/\/\/\/\/\/\/\/-->
+                  </td> <!--/ IV.C.1/-->
+                  <td> <!--IV.C.2-->
+                    <!--/\/\/\/\/\/\/\/\/ ****** Enter Content Here ****** /\/\/\/\/\/\/\/\/-->
+                  </td> <!--/ IV.C.2/-->
+                </tr> <!--/IV.C/-->
+              </table> <!--/IV/-->
+              <table> <!--V-->
+                <tr> <!--V.A-->
+                  <td> <!--V.A.1-->
+                    <!--/\/\/\/\/\/\/\/\/ ****** Enter Content Here ****** /\/\/\/\/\/\/\/\/-->
+                  </td> <!--/V.A.1/-->                  
+                </tr> <!--/V.A/-->
+                <tr> <!--V.B-->
+                  <td> <!--V.B.1-->
+                    <!--/\/\/\/\/\/\/\/\/ ****** Enter Content Here ****** /\/\/\/\/\/\/\/\/-->
+                  </td> <!--/V.B.1/-->                  
+                </tr> <!--/V.B/-->
+                <tr> <!--V.C-->
+                  <td> <!--V.C.1-->
+                    <!--/\/\/\/\/\/\/\/\/ ****** Enter Content Here ****** /\/\/\/\/\/\/\/\/-->
+                  </td> <!--/V.C.1/-->                                    
+                </tr> <!--/V.C/-->
+              </table> <!--/V/-->
+            </td> <!--/III.A.2/-->
+          </tr> <!--/III.A/-->
+      </table> <!--/III/-->
+      <table> <!--VI-->
+        <tr> <!--VI.A-->
+        	<td> <!--VI.A.1-->
+        	  <!--/\/\/\/\/\/\/\/\/ ****** Enter Content Here ****** /\/\/\/\/\/\/\/\/-->
+        	</td> <!--/VI.A.1/-->
+        </tr>  <!--/VI.A/-->
+        <tr> <!--VI.B-->
+          <td> <!--VI.B.1-->
+            <!--/\/\/\/\/\/\/\/\/ ****** Enter Content Here ****** /\/\/\/\/\/\/\/\/-->
+          </td> <!--/VI.B.1/-->
+        </tr> <!--/VI.B/-->
+      </table> <!--/VI/-->
       << u_Service_Credit(.F.,"cecece") >> 
-    </td>
-  </tr>
-</table>
+    </td> <!--/ I.A.1/-->
+  </tr> <!--/  I.A/-->
+</table> <!--/I/-->
+
 << TrackOpen(EmailDisplay.EmailKey, daDisplay.FTPBox , [E], [], .t.) >>
+
 </body>
