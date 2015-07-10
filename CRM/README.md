@@ -15,9 +15,8 @@ The pre-arrival letters are designed to showcase location, amenities, dining, sp
 When a guest's plans change, they recieve this type of email.  Nevertheless, cancellation emails can open a dialog with guests, looking for those who may have changed plans due to competitive pricing. Armed with this information, Revenue Managers can contact those guests with alternate offers and try to recapture that revenue. In everything we do, we do with our client’s bottom line in mind.
 
 ## Online Surveys (CC) and Thank You Notes (TYN)
-These are an important touch of class. Together, both ensure appreciation for your guests' business and gather important feedback. Complete with hand-written signatures from key personnel, Thank You Notes add that last stamp of personalization to each visit. They include invitations and links to our optional Online Survey services, furthering dialog with guests and enhancing your ability to meet the needs of future guests.
+Gather important feedback. Thank You Notes add that last stamp of personalization to each visit. They include invitations and links to our optional Online Survey services
 
-The collection of custom designed Reservation Confirmations, Pre-Stay Marketing messages, Cancellations with feedback forms, Thank You Notes, and Online Surveys creates an opportunity for direct communication with your guests. Each of these messages is expertly designed to form vivid impressions of your property’s unique brand.
 
 # Extended CRM Innovations and Services
 
